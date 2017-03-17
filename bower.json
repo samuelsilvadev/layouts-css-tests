@@ -1,0 +1,20 @@
+{
+  "name": "layouts-css-tests",
+  "homepage": "https://github.com/samuelsilvadev/layouts-css-tests",
+  "authors": [
+    "samuelsilva <samuelsilvawb@gmail.com>"
+  ],
+  "description": "",
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "css-reset": "^2.5.1"
+  }
+}
