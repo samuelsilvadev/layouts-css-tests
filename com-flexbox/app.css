@@ -1,0 +1,17 @@
+* {
+    background-color: #a9a9a9;
+    outline: 1px solid blue;
+}
+
+.container{
+    width: 100%;
+}
+
+.box{
+	background-color: red;
+    width: 100%;
+}
+
+.box-child{
+    width: calc(100% / 3);
+}
