@@ -3,6 +3,10 @@
     outline: 1px solid blue;
 }
 
+.responsive{
+	max-width: 100%;
+}
+
 .container{
     width: 100%;
 }
@@ -10,6 +14,7 @@
 .box{
 	background-color: red;
     width: 100%;
+    display: flex;
 }
 
 .box-child{
