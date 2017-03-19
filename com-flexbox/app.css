@@ -33,3 +33,14 @@
 	font-weight: 600;
 	line-height: 50px;	
 }
+
+/* flexbox */
+
+.parent{
+	display: flex;
+	flex-direction: row-reverse;	
+}
+
+.children{
+	width: 50%;
+}
