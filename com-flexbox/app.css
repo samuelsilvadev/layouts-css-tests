@@ -20,3 +20,16 @@
 .box-child{
     width: calc(100% / 3);
 }
+
+.parent{
+	border:5px solid lightcoral;
+}
+
+.children{
+	margin:5px;
+	background-color: DeepSkyBlue;
+	color: white;
+	text-align: center;
+	font-weight: 600;
+	line-height: 50px;	
+}
