@@ -44,3 +44,7 @@
 .children{
 	width: 50%;
 }
+
+.ball{
+	border-radius: 50%;
+}
