@@ -13,6 +13,12 @@ nav > ul {
 	background-color: deepSkyBlue;
 }
 
-nav > ul > li {
+.item-menu {
 	padding: 1em;
+	transition: all 0.7s ease;
+}
+
+.item-menu:hover {
+	background-color: #ccf2ff ;
+	cursor: pointer;
 }
