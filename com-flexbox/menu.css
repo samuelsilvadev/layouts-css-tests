@@ -21,4 +21,5 @@ nav > ul {
 .item-menu:hover {
 	background-color: #ccf2ff ;
 	cursor: pointer;
+	transform: scale(1.5);
 }
