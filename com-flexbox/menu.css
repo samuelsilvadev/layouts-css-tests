@@ -1,0 +1,18 @@
+*{
+	margin:0;
+}
+
+nav > ul {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+
+	list-style: none;
+
+	background-color: deepSkyBlue;
+}
+
+nav > ul > li {
+	padding: 1em;
+}
