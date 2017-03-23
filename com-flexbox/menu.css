@@ -48,4 +48,12 @@ footer{
 
 .parent{
 	display: flex;
+	font-size: 45px;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.parent div{
+	width: 100%;
+	border:1px solid lightgreen;
 }
