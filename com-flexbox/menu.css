@@ -23,3 +23,21 @@ nav > ul {
 	cursor: pointer;
 	transform: scale(1.5);
 }
+
+main{
+	display: flex;
+}
+
+article{
+	order: 2;
+}
+
+.aside-1{
+	background: gold;
+	order: 1;
+}
+
+.aside-2 {
+  background: hotpink;
+  order: 3;
+}
