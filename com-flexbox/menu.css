@@ -32,6 +32,10 @@ article{
 	order: 2;
 }
 
+footer{
+	background: lightgreen;
+}
+
 .aside-1{
 	background: gold;
 	order: 1;
@@ -40,4 +44,8 @@ article{
 .aside-2 {
   background: hotpink;
   order: 3;
+}
+
+.parent{
+	display: flex;
 }
