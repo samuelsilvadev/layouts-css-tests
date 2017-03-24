@@ -57,3 +57,11 @@ footer{
 	width: 100%;
 	border:1px solid lightgreen;
 }
+
+.parent div > i{
+	transition:all 0.7s ease; 
+}
+
+.parent div > i:hover{
+	color: orange;
+}
