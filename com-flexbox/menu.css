@@ -26,14 +26,15 @@ nav > ul {
 
 main{
 	display: flex;
+	padding: 1em;
+}
+
+article, .aside-1, .aside-2{
+	padding: 2em;
 }
 
 article{
 	order: 2;
-}
-
-footer{
-	background: lightgreen;
 }
 
 .aside-1{
@@ -64,4 +65,8 @@ footer{
 
 .parent div > i:hover{
 	color: orange;
+}
+
+footer{
+	background: lightgreen;
 }
