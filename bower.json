@@ -15,6 +15,7 @@
     "tests"
   ],
   "dependencies": {
-    "css-reset": "^2.5.1"
+    "css-reset": "^2.5.1",
+    "font-awesome": "FortAwesome/Font-Awesome#^4.7.0"
   }
 }
