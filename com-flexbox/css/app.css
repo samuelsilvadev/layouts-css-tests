@@ -20,10 +20,8 @@ nav{
 nav > h2 {
 	width: 30%;
 	text-align: center;
-}
-
-nav > ul{
-	list-style: none;	
+	font-weight: 100;
+	font-size: 30px;
 }
 
 ul:last-child{
@@ -62,6 +60,13 @@ ul > li{
 
 .form-header button:first-child{
 	margin-right: 10px;
+	background-color: #ff931e;
+	border:0;
+}
+
+.form-header button:last-child{
+	background-color: #2f7de1;
+	border: 1px solid #fff;
 }
 
 .form-header button{
