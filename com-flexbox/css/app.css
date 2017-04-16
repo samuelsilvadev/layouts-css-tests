@@ -4,7 +4,7 @@
 }
 
 header{
-	background-color: #0734a3;
+	background-color: #2f7de1;
 	color: #fff;
 }
 
@@ -12,15 +12,31 @@ header img {
 	max-width:100%;
 }
 
+nav{
+	position: relative;
+	top: 20px;
+}
+
+nav > h2 {
+	width: 30%;
+	text-align: center;
+}
+
 nav > ul{
-	list-style: none;
+	list-style: none;	
+}
+
+ul:last-child{
+	margin-right: 10px;
 }
 
 ul > li{
 	display: inline;
+	padding: 10px;
+	box-sizing: border-box;
 }
 
-.container{
+.container-flex{
 	display: flex;
 	align-items: center;
 }
