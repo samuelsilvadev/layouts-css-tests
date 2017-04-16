@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
 *{
 	 /*outline: 1px solid blue;
 	 box-sizing: border-box;*/
@@ -6,6 +8,7 @@
 header{
 	background-color: #2f7de1;
 	color: #fff;
+	font-family: 'Open Sans', sans-serif;
 }
 
 header img {
@@ -21,7 +24,11 @@ nav > h2 {
 	width: 30%;
 	text-align: center;
 	font-weight: 100;
-	font-size: 30px;
+	font-size: 40px;
+}
+
+nav > ul {
+	width: 70%;
 }
 
 ul:last-child{
@@ -32,6 +39,7 @@ ul > li{
 	display: inline;
 	padding: 10px;
 	box-sizing: border-box;
+	text-transform: uppercase;
 }
 
 .container-flex{
