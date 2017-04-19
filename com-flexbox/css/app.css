@@ -35,7 +35,7 @@ ul:last-child{
 	margin-right: 10px;
 }
 
-ul > li{
+ul > li.item-menu{
 	display: inline;
 	padding: 10px;
 	box-sizing: border-box;
