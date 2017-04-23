@@ -95,10 +95,15 @@ ul > li.item-menu{
 
 /* info */
 
+.info{
+	background-color: #f1f1f1;
+	background-size: cover;	
+}
+
 .info-text{
-	width: 50%; 
-	background-color: #f1f1f1; 
+	width: 50%;	
 	height: 600px;
+	max-height: 600px;
 }
 
 .info-text > h1{
@@ -127,5 +132,5 @@ ul > li.item-menu{
 
 info-image{
 	width: 50%; 
-	height: 600px;
+	max-height: 600px;
 }
