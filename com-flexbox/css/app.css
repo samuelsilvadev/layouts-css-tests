@@ -5,6 +5,14 @@
 	 box-sizing: border-box;*/
 }
 
+img{
+	max-width: 100%;
+}
+
+section div{
+	flex-grow: 2
+}
+
 header, .info{
 	font-family: 'Open Sans', sans-serif;
 }
@@ -12,10 +20,6 @@ header, .info{
 header{
 	background-color: #2f7de1;
 	color: #fff;	
-}
-
-header img {
-	max-width:100%;
 }
 
 nav{
