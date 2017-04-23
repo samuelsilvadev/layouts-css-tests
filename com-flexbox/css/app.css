@@ -5,10 +5,13 @@
 	 box-sizing: border-box;*/
 }
 
+header, .info{
+	font-family: 'Open Sans', sans-serif;
+}
+
 header{
 	background-color: #2f7de1;
-	color: #fff;
-	font-family: 'Open Sans', sans-serif;
+	color: #fff;	
 }
 
 header img {
@@ -84,4 +87,41 @@ ul > li.item-menu{
 
 .item-2{
 	width: 40%;
+}
+
+/* info */
+
+.info-text{
+	width: 50%; 
+	background-color: #f1f1f1; 
+	height: 600px;
+}
+
+.info-text > h1{
+	color: #1b516f;
+	font-size: 3em;
+	padding-top: 20px;
+	padding-left: 50px;
+}
+
+.info-text > p{
+	color: #f6a02c;
+	padding-left: 50px;
+}
+
+.info-text ul{
+	display: block; 
+	list-style-type: disc; 
+	text-transform: none; 
+	padding: 25px 0 0 70px;
+}
+
+.info-text ul > li{
+	color: #747474;
+	padding: 10px;
+}
+
+info-image{
+	width: 50%; 
+	height: 600px;
 }
