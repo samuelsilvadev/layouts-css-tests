@@ -13,7 +13,7 @@ section div{
 	flex-grow: 2
 }
 
-header, .info{
+header, .info, .featured-products{
 	font-family: 'Open Sans', sans-serif;
 }
 
@@ -125,7 +125,7 @@ ul > li.item-menu{
 	display: block; 
 	list-style-type: disc; 
 	text-transform: none; 
-	padding: 25px 0 0 70px;
+	padding: 25px 0 0 90px;
 }
 
 .info-text ul > li{
@@ -136,4 +136,14 @@ ul > li.item-menu{
 info-image{
 	width: 50%; 
 	max-height: 600px;
+}
+
+/* featured-products */
+
+.featured-products h2 {
+	font-size: 2em;
+}
+
+.featured-products-title{
+	text-align: center;
 }
