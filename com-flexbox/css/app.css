@@ -148,6 +148,15 @@ info-image{
 	margin-top: 50px;
 }
 
-.products{
-	
+.products-1, .products-2{
+	flex-basis: 50%;
+}
+
+section > figure{
+	max-height: 150px;
+}
+
+section > figure > img{
+	display: block;
+	margin:0 auto;
 }
