@@ -140,12 +140,18 @@ info-image{
 
 /* featured-products */
 
-.featured-products h2 {
-	font-size: 2em;
+.featured-products-title > h2 {
+	font-size: 1.5em;
+	font-weight: bold;
+	text-transform: uppercase;
 }
 
 .featured-products-title{
 	text-align: center;
 	color: #1b516f;
 	margin-top: 50px;
+}
+
+.products{
+	
 }
