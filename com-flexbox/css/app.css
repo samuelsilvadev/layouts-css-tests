@@ -9,10 +9,6 @@ img{
 	max-width: 100%;
 }
 
-section div{
-	flex-grow: 2
-}
-
 header, .info, .featured-products{
 	font-family: 'Open Sans', sans-serif;
 }
