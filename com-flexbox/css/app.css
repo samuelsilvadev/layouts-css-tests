@@ -152,11 +152,11 @@ info-image{
 	flex-basis: 50%;
 }
 
-section > figure{
+.products-1 > section > figure, .products-2 > section > figure{
 	max-height: 150px;
 }
 
-section > figure > img{
+.product-img{
 	display: block;
 	margin:0 auto;
 }
