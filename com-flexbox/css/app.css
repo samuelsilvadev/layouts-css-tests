@@ -159,3 +159,7 @@ info-image{
 figure.container-flex{
 	justify-content: center;
 }
+
+.products section{
+	text-align: center;
+}
