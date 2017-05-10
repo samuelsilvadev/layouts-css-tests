@@ -156,7 +156,11 @@ info-image{
 	max-height: 150px;
 }
 
-.product-img{
+figure.container-flex{
+	justify-content: center;
+}
+
+/*.product-img{
 	display: block;
 	margin:0 auto;
-}
+}*/
